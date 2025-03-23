@@ -10,10 +10,7 @@ function App() {
     <div className='page'>
       <div className='page-wraper'>
         <div className='page-card'>
-
               <Header />
-
-
             <main>
               
             </main>
