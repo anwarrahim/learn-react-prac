@@ -19,10 +19,24 @@ body{
 
 .page-card {
     border-radius: 1em;
-    width: 25em;
+    width: 20em;
         /* Fixed width */
-    height: 35em;
+    height: 30em;
     padding: 20px;
-    background-color: white;
+    background-color:#16191e;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience{
+    display: flex;
+    color: white;
+}
+.experience-wrapper{
+    background-color: #34393f;
+}
+
+.main-profile-img{
+    width: 120px;
+    height: 120px;
+
 }

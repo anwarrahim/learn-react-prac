@@ -11,10 +11,7 @@ function App() {
       <div className='page-wraper'>
         <div className='page-card'>
 
-        
-            <header>
               <Header />
-            </header>
 
 
             <main>
