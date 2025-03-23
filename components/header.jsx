@@ -1,4 +1,3 @@
-import MyProfile from '../src/assets/images/mypic-edits.png'
 
 function Header(props){
 
@@ -7,14 +6,21 @@ function Header(props){
             <div className="experience">
                 <div className="experience-wrapper">
                     <div className="expirence-year">
-                        <span>2+</span>
+                        <span>{props.yearExp}</span>
                         
                     </div>
                     <p>Years Exp</p>
                 </div>
                  <div className="profile-pic">
-                <img className='main-profile-img' src={MyProfile} alt="" />
-            </div>
+                    <img className='main-profile-img' src={props.myProfileUrl} alt={props.altText} />
+                </div>
+                 <div className="experience-wrapper">
+                    <div className="expirence-year">
+                        <span>$5</span>
+                        
+                    </div>
+                    <p>Hourly Rate</p>
+                </div>
             </div>
            
         </>

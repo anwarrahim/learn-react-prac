@@ -18,10 +18,10 @@ body{
 }
 
 .page-card {
-    border-radius: 1em;
-    width: 20em;
+    border-radius:0.5em;
+    width: 23em;
         /* Fixed width */
-    height: 30em;
+    height: 27em;
     padding: 20px;
     background-color:#16191e;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -30,13 +30,36 @@ body{
 .experience{
     display: flex;
     color: white;
+    gap: 1em;
+    justify-content: center;
 }
+
 .experience-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.expirence-year {
+   
+   
+}
+.expirence-year span{
+    text-align: center;
+    padding: 0.7em 2em;
     background-color: #34393f;
+    border-radius: 0.3em;
+    border: 2px solid #3f444b;
 }
 
 .main-profile-img{
+    border: #16191e 5px solid;
+    border-radius: 0.5em;
+    position: relative;
+    bottom: 5em;
     width: 120px;
     height: 120px;
+    margin: 0 auto;
 
 }
