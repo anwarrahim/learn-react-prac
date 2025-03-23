@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+
+}
+
+.page{
+    width: 100vw;
+    height: 100vh ;
+    background-color: rgb(233, 211, 185);
+}
+
+.page-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.page-card {
+    border-radius: 1em;
+    width: 25em;
+        /* Fixed width */
+    height: 35em;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
