@@ -16,7 +16,7 @@ function Header(props){
                 </div>
                  <div className="experience-wrapper">
                     <div className="expirence-year">
-                        <span>$5</span>
+                        <span>{props.hourlyRate}</span>
                         
                     </div>
                     <p>Hourly Rate</p>
