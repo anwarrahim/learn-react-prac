@@ -1,5 +1,13 @@
+
+
+html, body{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
 body{
     margin: 0;
+
 
 }
 
@@ -66,10 +74,21 @@ body{
 }
 
 .my-name-and-career{
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    
+        /* Reduced from 200px which was causing excessive space */
+        margin-top: -5em;
+        line-height: 1.5;
+       
+}
+
+.my-name-and-career h1{
+    margin-bottom: 0 ;
+}
+.my-name-and-career p{
+    margin-top: 0;
 }
